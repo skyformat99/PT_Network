@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{52932ece-7623-4929-9e78-501ae77d2cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{a5b7f18a-f117-45f8-baaa-581b01f4a8a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="buffer">
+      <UniqueIdentifier>{5f2c8a08-50e9-447c-99d3-dfa1bb2ea862}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\PT_Network.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PT_UV_Thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PT_UV_TcpServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PT_UV_TcpSession.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="algo_aes_gcm.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="algo_base64.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="algo_digest.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="algo_random.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="buffer_util.h">
+      <Filter>buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="slice.h">
+      <Filter>buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrentqueue.h">
+      <Filter>buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="RsaEncryptor.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="PT_UV_SP_Session.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PT_UV_SSL_Session.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MBedRSA.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PT_Network.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PT_UV_Thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PT_UV_TcpServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PT_UV_TcpSession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algo_aes_gcm.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="algo_base64.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="algo_digest.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="algo_random.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="buffer_util.cpp">
+      <Filter>buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="RsaEncryptor.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="PT_UV_SP_Session.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PT_UV_SSL_Session.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MBedRSA.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
